@@ -202,7 +202,6 @@ Wikipedia
 }
 
 .form {
-  background: #fff;
   width: 100%;
   margin: 0 auto;
   padding: 2.5rem;
@@ -217,12 +216,12 @@ Wikipedia
   border: 1px solid var(--grey-200);
 }
 .form-input {
-  border-right: transparent;
+  border: 1px solid var(--grey-500);
   border-top-left-radius: var(--borderRadius);
   border-bottom-left-radius: var(--borderRadius);
 }
 .submit-btn {
-  border: 1px solid var(--primary-500);
+  border: 2px solid var(--grey-500);
   border-left: transparent;
   border-top-right-radius: var(--borderRadius);
   border-bottom-right-radius: var(--borderRadius);
@@ -233,7 +232,8 @@ Wikipedia
   cursor: pointer;
 }
 .submit-btn:hover {
-  color: var(--primary-900);
+  color: var(--white);
+  background-color: green;
 }
 
 .results {
