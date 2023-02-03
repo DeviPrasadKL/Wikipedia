@@ -219,6 +219,7 @@ Wikipedia
   border: 1px solid var(--grey-500);
   border-top-left-radius: var(--borderRadius);
   border-bottom-left-radius: var(--borderRadius);
+  caret-color:red;
 }
 .submit-btn {
   border: 2px solid var(--grey-500);
